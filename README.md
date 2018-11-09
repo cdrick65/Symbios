@@ -1,7 +1,5 @@
-Symbios Information System 
-Symbios(IS) Project
-
-prototyping a universal distributed information system.
+<h1>Symbios Information System</h1>: 
+Symbios(IS) Project: prototyping a universal distributed information system.
 - Open-Source & Private by Design & Ethical Design compliant
 - Resilient by Design => organic and distributed inspiration
 
