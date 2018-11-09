@@ -74,7 +74,7 @@ planing/managing (future)events, to-do, project, ideas, ...
 
 iCal friendly
 
--AI integration
+- AI integration
 help recognising information, categorizing
 
 grow and learn as the system grows.
@@ -83,10 +83,10 @@ help and assit the physical symbiot
 
 monitor and control CPS
 
--Mobile Companion
+- Mobile Companion
 export from Pharo (basic info model when stabilized) - Adobe Cordova ?
 
-Do a Symbiox
+Do Symbiox (separate github project)
 
 a very simple app to enter contextalized SymbiosInput from the phone device (being actually a symbioIS). 
 
