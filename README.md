@@ -1,4 +1,4 @@
-<h1>Symbios Information System</h1>: 
+<h1>Symbios Information System</h1>
 Symbios(IS) Project: prototyping a universal distributed information system.
 - Open-Source & Private by Design & Ethical Design compliant
 - Resilient by Design => organic and distributed inspiration
@@ -14,9 +14,9 @@ ____
 Prototyping ideas with Pharo7 and Adobe Cordova (Mobile Apps)
 ___
 
-=>Task1: universal model of information (so as to deal with all inputs of digital information we do)
+<h3>Task1: universal model of information (so as to deal with all inputs of digital information we do)</h3>
 
-"All is information" 
+<blockquote>"All is information"</blockquote>
 
 Distributed Information Data Structure: Symbiot concept
 
@@ -25,9 +25,9 @@ Distributed Information Data Structure: Symbiot concept
 - a global model of information (seen as a persistent data structure)
 proto 1 started and code published here => do not expect much yet!
 
-=>Task2 (later): distributed message system (that convey information (all outputs of digital information we do))
+<h3>Task2 (later): distributed message system (that convey information (all outputs of digital information we do))</h3>
 
-"You only know 2 things on somebody: what he want you to know et what you want to see in himself" Dexter Morgan Father
+<blockquote>"You only know 2 things on somebody: what he want you to know et what you want to see in himself" <br/>Dexter Morgan Father</blockquote>
 
 Messages are sent between SymbiosIS and processed by it. A Message is a particular king of SymbiosInput).
 
@@ -50,7 +50,7 @@ We'll focus on discovery of services, of presence while prototyping some origina
 Beside the technical aspects, we're more interested in consigning all network activity as we do for message and for information.
 
 =>Task3: Tools
-"just ideas... no code for now... but experiments like the position logger done mostly in students projects" 
+<blockquote>"just ideas... no code for now... but experiments like the position logger done mostly in students projects" </blockquote>
 
 - visualizations of information
 - simple views
@@ -65,25 +65,30 @@ standard friendly like vCard
 
 - information composition tool: 
 SPEC + Pillar => Static Documents / Reports
+
 DynamicReports (can update according to a new context) 
 
 - activity logger: contextual taging of created information between start and stop moment.
-- general planing tool: 
+- general planing tool
 planing/managing (future)events, to-do, project, ideas, ...
+
 iCal friendly
 
 -AI integration
 help recognising information, categorizing
+
 grow and learn as the system grows.
+
 help and assit the physical symbiot
+
 monitor and control CPS
 
 -Mobile Companion
-=> export from Pharo (basic info model when stabilized) - Adobe Cordova ?
-=> Do a Symbiox
-- a very simple app 
+export from Pharo (basic info model when stabilized) - Adobe Cordova ?
 
-to enter contextalized SymbiosInput from the phone device (being actually a symbioIS). 
+Do a Symbiox
+
+a very simple app to enter contextalized SymbiosInput from the phone device (being actually a symbioIS). 
 
 Storing this info localy and send when other symbiosIS is met on the local network and appaired (according to contracts).
 
