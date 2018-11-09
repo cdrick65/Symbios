@@ -49,7 +49,7 @@ We'll focus on discovery of services, of presence while prototyping some origina
 
 Beside the technical aspects, we're more interested in consigning all network activity as we do for message and for information.
 
-=>Task3: Tools
+<h3>Task3: Tooling</h3>
 <blockquote>"just ideas... no code for now... but experiments like the position logger done mostly in students projects" </blockquote>
 
 - visualizations of information
