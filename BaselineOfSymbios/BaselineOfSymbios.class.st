@@ -1,6 +1,6 @@
 Class {
 	#name : #BaselineOfSymbios,
-	#superclass : #Object,
+	#superclass : #BaselineOf,
 	#category : #BaselineOfSymbios
 }
 
