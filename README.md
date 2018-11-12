@@ -1,11 +1,13 @@
 <h1>Symbios Information System</h1>
 Symbios(IS) Project: prototyping a universal distributed information system.
+
 - Open-Source & Private by Design & Ethical Design compliant
 - Resilient by Design => organic and distributed inspiration
 
 we must consider failure like losing a node, losing all nodes, losing cryptographic keys, etc..
 
 recoverable processes to define (based essentially on the interaction possibilities in the physical world to secure key exchange).
+
 - Organic growth => start empty and build the system gradually (co-evolution of model and instances of information)
 - Control of all usage and exchange of information (message that convey information are also special informations).
 
@@ -27,13 +29,14 @@ proto 1 started and code published here => do not expect much yet!
 
 <h3>Task2 (later): distributed message system (that convey information (all outputs of digital information we do))</h3>
 
-<blockquote>"You only know 2 things on somebody: what he want you to know et what you want to see in himself" <br/>Dexter Morgan Father</blockquote>
+<blockquote>"You only know 2 things on somebody: what he want you to know et what you want to see in himself" <br/>Harry Morgan, father of Dexter Morgan</blockquote>
 
 Messages are sent between SymbiosIS and processed by it. A Message is a particular king of SymbiosInput).
 
 They convey eventual information input (need the process of a message) => NEED REIFICATION OF INFO PROCESS (Task1)
 (not started)
-idea is to keep in each systems local view message queues even when processed. (proto 2)
+
+The idea is to keep in each systems local view message queues even when processed. (proto 2)
 
 Network management is a core feature.
 
