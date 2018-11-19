@@ -1,6 +1,6 @@
 Class {
 	#name : #SymbiosContext,
-	#superclass : #SymbiosCompositeVar,
+	#superclass : #SymbiosFormVar,
 	#instVars : [
 		'model'
 	],

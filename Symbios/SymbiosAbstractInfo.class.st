@@ -20,3 +20,12 @@ Class {
 	#superclass : #SymbiosObject,
 	#category : #Symbios
 }
+
+{ #category : #identification }
+SymbiosAbstractInfo >> identifier: anId [
+
+	| id |
+	id := super identifier: anId.
+	
+	self halt.
+]

@@ -9,7 +9,10 @@ I'm the leaf component of composite input (kind of valued form at a given contex
 I can be seen as a variable value (value of )
 "
 Class {
-	#name : #SymbiosInput,
+	#name : #SymbiosRawInput,
 	#superclass : #SymbiosAbstractInput,
+	#instVars : [
+		'inputValue'
+	],
 	#category : #Symbios
 }

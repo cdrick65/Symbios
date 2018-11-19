@@ -5,7 +5,7 @@ Class {
 	#name : #SymbiosSymbiot,
 	#superclass : #SymbiosCompositeVar,
 	#instVars : [
-		'model'
+		'symbiots'
 	],
 	#category : #Symbios
 }
@@ -22,13 +22,12 @@ SymbiosSymbiot >> initialBootstrap [
 
 { #category : #'initialization - private' }
 SymbiosSymbiot >> initialize [ 
-	children := OrderedCollection new.
-	contexts := OrderedCollection new. "I think this is computed... context input goes in symbiots contextvar"
-	self flag: #todo.
-	model := #undefined. "should be a default children component #model"
+	
+	super initialize.
+	"model := #person." "should be a default children component #model"
 	"define accessors to commion informations - meta at least. minimal context."
 	"cannot simply add - must log in metainformations... ?   circular references..."
-	children add: (SymbiosCompositeVar with: self newContext).
+	
 ]
 
 { #category : #'initialize-bootstrap' }
@@ -37,11 +36,11 @@ SymbiosSymbiot >> localID: aString [
 ]
 
 { #category : #accessing }
-SymbiosSymbiot >> model [
-	^ model
+SymbiosSymbiot >> symbiots [
+	^ symbiots
 ]
 
 { #category : #accessing }
-SymbiosSymbiot >> model: anObject [
-	model := anObject
+SymbiosSymbiot >> symbiots: anObject [
+	symbiots := anObject
 ]

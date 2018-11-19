@@ -104,9 +104,13 @@ SymbiosIS >> hostSymbiot: anObject [
 { #category : #accessing }
 SymbiosIS >> initialize [
 
-	systemInfo := OrderedCollection new 	
-			with: (SymbiosCompositeVar with: self newContext). 
-	networks := OrderedCollection with: #image with: #'huawei-a470'
+	systemSymbiot := AppSymbiot new 
+							identifier: #pharoApp1;
+							yourself.
+							"networks: (OrderedCollection with: #image with: #'huawei-a470');"
+							"context + meta SymInfoDescription"
+							"generatedBy: self."
+							
 	"networks should be extracted form host OS and then confronted to networks (inputs) in symbiots"
 ]
 
@@ -118,4 +122,29 @@ SymbiosIS >> systemSymbiot [
 { #category : #accessing }
 SymbiosIS >> systemSymbiot: anObject [
 	systemSymbiot := anObject
+]
+
+{ #category : #'as yet unclassified' }
+SymbiosIS >> todo [
+
+	| aCompo anInfo |
+	self initialize. "default inst => repo, network, app, setup..."
+	
+	self bootFromHost: PersonSymbiot new comment: 'extra contextual information about the **version** '.
+	
+	self newInput: SymbiosRawInput new.
+	
+	self newSymbiot: SymbiosSymbiot new.
+	
+	aCompo := self newComposition SymbiosComposition from: 'I1:i1 I2:i2'.
+	
+	self compose: aCompo.
+	
+	self move: anInfo from: (self host lookupFor: anInfo) to: 'root>symb1>subsymb1' "asSymbiotPath" .
+	
+	self host allInformations.
+	
+	
+	
+	
 ]
