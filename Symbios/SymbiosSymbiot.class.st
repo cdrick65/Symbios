@@ -3,7 +3,7 @@ Symbiots are view on physical entities from a given singular entity also represe
 "
 Class {
 	#name : #SymbiosSymbiot,
-	#superclass : #SymbiosCompositeVar,
+	#superclass : #SymbiosObject,
 	#instVars : [
 		'symbiots'
 	],
@@ -24,6 +24,7 @@ SymbiosSymbiot >> initialBootstrap [
 SymbiosSymbiot >> initialize [ 
 	
 	super initialize.
+	symbiots := OrderPreservingDictionary new.
 	"model := #person." "should be a default children component #model"
 	"define accessors to commion informations - meta at least. minimal context."
 	"cannot simply add - must log in metainformations... ?   circular references..."
